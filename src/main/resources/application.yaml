@@ -1,0 +1,15 @@
+
+spring:
+  application:
+    name: fashion-server
+  datasource:
+      url: "jdbc:mysql://localhost:3306/Fashion"
+      username: root
+      password: root
+  jpa:
+      hibernate:
+        ddl-auto: update
+      show-sql: true
+
+jwt:
+  secretKey: "PcMeipJ/aP/c5TOJ9XY8SE1c6ZjfsAFTm7IJyLKOTU7q3lTHFRNYuZb7awkGfZPE"
